@@ -44,12 +44,12 @@ volumes:
   driver: local
   driver_opts:
    type: none
-   device: /home/desmo/data/mariadb
+   device: /home/amorilla/data/mariadb
    o: bind
  wordpress:
   name: wordpress
   driver: local
   driver_opts:
    type: none
-   device: /home/desmo/data/wordpress
+   device: /home/amorilla/data/wordpress
    o: bind
